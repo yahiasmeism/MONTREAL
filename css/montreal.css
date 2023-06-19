@@ -117,6 +117,7 @@ header .container .logo img {
 header .container nav {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 header .container nav .toggle-menu {
   background-color: var(--main-color);
@@ -528,6 +529,14 @@ header .container nav ul a:hover {
   width: fit-content;
   text-decoration: none;
   color: black;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.portfolio-content .img-box .caption a:hover {
+  background-color:white;
 }
     /* ENd image & Content Portfolio */
 .portfolio a.load {
@@ -675,6 +684,14 @@ header .container nav ul a:hover {
 .info .content > div {
   display: flex;
   align-items: center;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.info .content > div:hover{
+  font-size: 17px;
 }
 .info .content > div i {
   margin-right: 10px;
